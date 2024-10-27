@@ -2,6 +2,7 @@ package com.yourdomain.controller;
 
 import com.yourdomain.OntologyService;
 import com.yourdomain.SPARQLQueries;
+import com.yourdomain.model.WeatherTypeDTO;
 import org.apache.jena.ontology.Individual;
 import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
@@ -10,6 +11,8 @@ import org.apache.jena.query.ResultSetFormatter;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.ResourceFactory;
+import org.apache.jena.riot.Lang;
+import org.apache.jena.riot.RDFDataMgr;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.apache.jena.rdf.model.ModelFactory;
@@ -88,5 +91,28 @@ public class WeatherConditionController {
         model.write(writer, "RDF/XML");
         return writer.toString();
     }
+
+    // Method to create a weather condition and return JSON-LD
+    @PostMapping("/createWeathers")
+    public String createWeather(@RequestBody WeatherTypeDTO weatherTypeDTO) {
+        OntModel model = ontologyService.getModel();
+        String namespace = "http://www.semanticweb.org/imenfrigui/ontologies/2024/8/PlanificateurTrajetsEcologiques#";
+        OntClass weatherClass = model.getOntClass(namespace + "WeatherCondition");
+
+        if (weatherClass == null) {
+            return "{\"error\": \"Weather class not found in ontology.\"}";
+        }
+
+        Individual newWeather = weatherClass.createIndividual(namespace + weatherTypeDTO.getWeatherType());
+        Property label = ResourceFactory.createProperty("http://www.w3.org/2000/01/rdf-schema#label");
+        newWeather.addProperty(label, weatherTypeDTO.getWeatherType());
+
+        ontologyService.saveModel();
+
+        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+        RDFDataMgr.write(outputStream, model, Lang.JSONLD);
+        return outputStream.toString();
+    }
+
 
 }

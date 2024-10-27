@@ -35,3 +35,5 @@ l
 <src/main/java/com/yourdomain/WeatherConditionController.java,3\d\3d1ed75118e755524ec7b5904dd053404fdee22d
 w
 Gsrc/main/java/com/yourdomain/controller/WeatherConditionController.java,1\c\1c584e1c4bbb803c388f0f8b2c6f83041882118a
+f
+6src/main/java/com/yourdomain/model/WeatherTypeDTO.java,6\9\69df2b6b91251738bf4061bb5787f37831f5f3ac
