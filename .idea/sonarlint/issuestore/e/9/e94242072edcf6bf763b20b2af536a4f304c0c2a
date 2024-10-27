@@ -1,0 +1,10 @@
+
+
+java:S1488,"_Immediately return this expression instead of assigning it to the temporary variable "results".(¬øåÊşÿÿÿÿ8ŞŒÛñ¬2
+i
+java:S2095M"LUse try-with-resources or close this "QueryExecution" in a "finally" clause.(ìÅÚ†8Ëœ¦ñ¬2
+n
+java:S2095+"LUse try-with-resources or close this "QueryExecution" in a "finally" clause.(Š²›¶úÿÿÿÿ8êŒÛñ¬2
+i
+java:S2095"LUse try-with-resources or close this "QueryExecution" in a "finally" clause.(ìÅÚ†8Êœ¦ñ¬2
+X	java:S1250"<This block of commented-out lines of code should be removed.(†‚ìŠ8Ùœ¦ñ¬2

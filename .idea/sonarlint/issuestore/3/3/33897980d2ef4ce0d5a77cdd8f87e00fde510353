@@ -1,0 +1,13 @@
+
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8ÐÑ•ñ¬2
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8ÐÑ•ñ¬2
+N
+java:S1602T",Remove useless curly braces around statement(Ð’Æ¡þÿÿÿÿ8òÑ•ñ¬2
+Y
+java:S1612T"7Replace this lambda with method reference 'model::add'.(Ð’Æ¡þÿÿÿÿ8üÑ•ñ¬2
+c
+java:S1128"FRemove this unused import 'org.apache.jena.rdf.model.ResourceFactory'.(ÛÀË£8ò¯íñ¬2
+S
+java:S1128"1Remove this unused import 'java.io.StringWriter'.(ô“Õýùÿÿÿÿ8ó¯íñ¬2
