@@ -1,0 +1,16 @@
+
+X	java:S125"<This block of commented-out lines of code should be removed.(İµøß8¯¡•î¬2
+[
+java:S1128">Remove this unused import 'org.apache.jena.ontology.OntClass'.(ğ¾˜•8÷¡•î¬2
+`
+java:S1128">Remove this unused import 'org.apache.jena.ontology.OntModel'.(Ó¹ù½üÿÿÿÿ8ù¡•î¬2
+d
+java:S1128"BRemove this unused import 'org.apache.jena.ontology.OntModelSpec'.(‡ÛÌ¡úÿÿÿÿ8ü¡•î¬2
+`
+java:S1128"CRemove this unused import 'org.apache.jena.rdf.model.ModelFactory'.(’Ö–8ı¡•î¬2
+Z
+java:S1128"=Remove this unused import 'org.apache.jena.util.FileManager'.(İéª¥8ÿ¡•î¬2
+e
+java:S1128	"HRemove this unused import 'org.springframework.boot.WebApplicationType'.(ğŒ²8‚¢•î¬2
+M
+java:S1128"0Remove this unused import 'java.io.InputStream'.(¹»º8¢•î¬2

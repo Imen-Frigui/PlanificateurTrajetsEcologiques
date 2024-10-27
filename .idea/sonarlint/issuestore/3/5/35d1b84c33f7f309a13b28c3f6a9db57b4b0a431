@@ -1,0 +1,22 @@
+
+ˆ
+java:S1192("kDefine a constant instead of duplicating this literal "http://www.w3.org/2000/01/rdf-schema#label" 3 times.(õıÂ8ÂŞ×ğ¬2
+ˆ
+java:S1192|"kDefine a constant instead of duplicating this literal "{\"error\": \"Speed instance not found.\"}" 3 times.(¼ìû8ÄŞ×ğ¬2
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8†ß×ğ¬2
+_
+java:S6813 "BRemove this field injection and use constructor injection instead.(êæÄŞ8‡ß×ğ¬2
+N
+java:S1602'",Remove useless curly braces around statement(§…ª‰şÿÿÿÿ8“ß×ğ¬2
+I
+java:S16024",Remove useless curly braces around statement(óî·Ó8šß×ğ¬2
+I
+java:S16027",Remove useless curly braces around statement(ÀùâÎ8ß×ğ¬2
+N
+java:S1602M",Remove useless curly braces around statement(ôÏŸûÿÿÿÿ8¤ß×ğ¬2
+^
+java:S1128	"<Remove this unused import 'org.apache.jena.query.ResultSet'.(±á‹ÿÿÿÿÿ8¾ß×ğ¬2
+g
+java:S1128
+"ERemove this unused import 'org.apache.jena.query.ResultSetFormatter'.(îÈÕÙùÿÿÿÿ8¾ß×ğ¬2

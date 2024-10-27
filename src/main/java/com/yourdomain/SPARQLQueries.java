@@ -30,4 +30,34 @@ public class SPARQLQueries {
         QueryExecution qexec = QueryExecutionFactory.create(query, model);
         return qexec.execSelect();
     }
+
+    public ResultSet queryRoutes() {
+        String queryString = """
+        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        PREFIX owl: <http://www.w3.org/2002/07/owl#>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        SELECT ?route WHERE {
+            ?route rdf:type <http://www.semanticweb.org/imenfrigui/ontologies/2024/8/PlanificateurTrajetsEcologiques#Route>
+        }
+        """;
+
+        Query query = QueryFactory.create(queryString);
+        QueryExecution qexec = QueryExecutionFactory.create(query, model);
+        return qexec.execSelect();
+    }
+
+    public ResultSet querySpeed() {
+        String queryString = """
+        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        PREFIX owl: <http://www.w3.org/2002/07/owl#>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        SELECT ?speed WHERE {
+            ?speed rdf:type <http://www.semanticweb.org/imenfrigui/ontologies/2024/8/PlanificateurTrajetsEcologiques#Speed>
+        }
+        """;
+
+        Query query = QueryFactory.create(queryString);
+        QueryExecution qexec = QueryExecutionFactory.create(query, model);
+        return qexec.execSelect();
+    }
 }
