@@ -1,6 +1,4 @@
 
-=
-src/Main.java,9\2\924f089edb4af5ee45c8a9d1129cd28e2b368138
 B
 src/CreateRDF.java,b\2\b2da006f8f7dd531aa5624fcaf05a45372877669
 =
@@ -11,10 +9,6 @@ S
 #PlanificateurTrajetsEcologiques.iml,4\a\4a72b5c0b9030fe4bbf1a01f9d018cc302840575
 V
 &src/main/java/com/yourdomain/Main.java,6\1\61db3799609b172c42858ee9f562a2c438118cb4
-n
->src/main/java/com/yourdomain/controller/WeatherController.java,8\c\8cce497e68324e4009641470c6ab245103b84512
-n
->src/main/java/com/yourdomain/controller/VehicleController.java,f\9\f973572ccc1289737cbf11bcd04f668d6c9df2e4
 _
 /src/main/java/com/yourdomain/model/Weather.java,e\5\e5b1b30e1753041a5f73d13bf7ab0f9faff5d510
 _
@@ -23,16 +17,10 @@ h
 8src/main/java/com/yourdomain/service/WeatherService.java,7\8\78b46795ec42abe2a61ec0528cf4710ca0fcc161
 h
 8src/main/java/com/yourdomain/service/VehicleService.java,1\9\1962dd0f37a30e3c1316c10279a6c25aaf73daf8
-a
-1src/main/java/com/yourdomain/OntologyManager.java,d\d\ddfadfa6f12fc5e2857a3096d8ab51179370a123
 _
 /src/main/java/com/yourdomain/SPARQLQueries.java,e\9\e94242072edcf6bf763b20b2af536a4f304c0c2a
 a
 1src/main/java/com/yourdomain/OntologyService.java,1\4\148f37dfcab1140ff64200e44f7ed25f24bdcaa6
-d
-4src/main/java/com/yourdomain/OntologyController.java,5\6\56b788f75ce49376ca5c73d6fbf92487986060bd
-l
-<src/main/java/com/yourdomain/WeatherConditionController.java,3\d\3d1ed75118e755524ec7b5904dd053404fdee22d
 w
 Gsrc/main/java/com/yourdomain/controller/WeatherConditionController.java,1\c\1c584e1c4bbb803c388f0f8b2c6f83041882118a
 f
