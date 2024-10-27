@@ -1,11 +1,9 @@
+com\yourdomain\OntologyService.class
 com\yourdomain\model\Vehicle.class
 com\yourdomain\model\Weather.class
-com\yourdomain\SPARQLQueries.class
-com\yourdomain\OntologyManager.class
-com\yourdomain\OntologyService.class
-com\yourdomain\controller\VehicleController.class
 com\yourdomain\Main.class
-com\yourdomain\controller\WeatherController.class
-com\yourdomain\OntologyController.class
+com\yourdomain\model\WeatherTypeDTO.class
+com\yourdomain\controller\WeatherConditionController.class
 com\yourdomain\service\WeatherService.class
+com\yourdomain\SPARQLQueries.class
 com\yourdomain\service\VehicleService.class

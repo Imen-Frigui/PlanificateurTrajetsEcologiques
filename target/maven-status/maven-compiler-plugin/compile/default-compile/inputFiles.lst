@@ -1,10 +1,8 @@
-C:\Users\ImenFrigui\OneDrive - ESPRIT\Documents\PlanificateurTrajetsEcologiques\src\main\java\com\yourdomain\controller\VehicleController.java
-C:\Users\ImenFrigui\OneDrive - ESPRIT\Documents\PlanificateurTrajetsEcologiques\src\main\java\com\yourdomain\controller\WeatherController.java
+C:\Users\ImenFrigui\OneDrive - ESPRIT\Documents\PlanificateurTrajetsEcologiques\src\main\java\com\yourdomain\controller\WeatherConditionController.java
 C:\Users\ImenFrigui\OneDrive - ESPRIT\Documents\PlanificateurTrajetsEcologiques\src\main\java\com\yourdomain\Main.java
 C:\Users\ImenFrigui\OneDrive - ESPRIT\Documents\PlanificateurTrajetsEcologiques\src\main\java\com\yourdomain\model\Vehicle.java
 C:\Users\ImenFrigui\OneDrive - ESPRIT\Documents\PlanificateurTrajetsEcologiques\src\main\java\com\yourdomain\model\Weather.java
-C:\Users\ImenFrigui\OneDrive - ESPRIT\Documents\PlanificateurTrajetsEcologiques\src\main\java\com\yourdomain\OntologyController.java
-C:\Users\ImenFrigui\OneDrive - ESPRIT\Documents\PlanificateurTrajetsEcologiques\src\main\java\com\yourdomain\OntologyManager.java
+C:\Users\ImenFrigui\OneDrive - ESPRIT\Documents\PlanificateurTrajetsEcologiques\src\main\java\com\yourdomain\model\WeatherTypeDTO.java
 C:\Users\ImenFrigui\OneDrive - ESPRIT\Documents\PlanificateurTrajetsEcologiques\src\main\java\com\yourdomain\OntologyService.java
 C:\Users\ImenFrigui\OneDrive - ESPRIT\Documents\PlanificateurTrajetsEcologiques\src\main\java\com\yourdomain\service\VehicleService.java
 C:\Users\ImenFrigui\OneDrive - ESPRIT\Documents\PlanificateurTrajetsEcologiques\src\main\java\com\yourdomain\service\WeatherService.java
