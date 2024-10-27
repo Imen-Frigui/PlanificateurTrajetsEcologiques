@@ -5,6 +5,7 @@ import org.apache.jena.ontology.OntModelSpec;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
@@ -23,18 +24,28 @@ public class OntologyService {
         loadModel();
     }
 
-    private void loadModel() {
-        // Attempt to load from the external path
-        String filePath = env.getProperty("app.ontology.path");
-        try (InputStream in = new FileInputStream(filePath)) {
-            if (in == null) {
-                throw new IllegalArgumentException("File not found: " + filePath);
-            }
+//    private void loadModel() {
+//        // Attempt to load from the external path
+//        String filePath = env.getProperty("app.ontology.path");
+//        try (InputStream in = new FileInputStream(filePath)) {
+//            if (in == null) {
+//                throw new IllegalArgumentException("File not found: " + filePath);
+//            }
+//            model.read(in, null, "RDF/XML");
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//    }
+private void loadModel() {
+    try {
+        ClassPathResource resource = new ClassPathResource("ontology/planficateurTrajet.rdf");
+        try (InputStream in = resource.getInputStream()) {
             model.read(in, null, "RDF/XML");
-        } catch (IOException e) {
-            e.printStackTrace();
         }
+    } catch (IOException e) {
+        e.printStackTrace();
     }
+}
 
     public OntModel getModel() {
         return model;

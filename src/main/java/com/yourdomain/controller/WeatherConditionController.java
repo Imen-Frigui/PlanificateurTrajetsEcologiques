@@ -22,6 +22,7 @@ import java.io.StringWriter;
 
 @RestController
 @RequestMapping("/ontology")
+@CrossOrigin(origins = "http://localhost:3000/")
 public class WeatherConditionController {
 
     @Autowired
